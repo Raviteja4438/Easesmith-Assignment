@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+E-commerce Listing Page - React Assignment
+This project is an E-commerce product listing page built using React, following the design specifications provided in the Figma Design. The page allows users to view a list of products, add items to a cart using a modal, and view a custom "Thank You" page when viewing a product.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Project Overview
+Features
+Installation
+Usage
+Components
+Technologies Used
+Project Structure
+Contributing
 
-## Available Scripts
+Project Overview
 
-In the project directory, you can run:
+This is a front-end application built in React that simulates an e-commerce product listing page. It includes a functional UI with routing, modals, and pagination. Static/mock data is used to simulate products, and there is no backend or API integration.
 
-### `npm start`
+Key Features:
+Product listing page with mock data.
+Pagination for navigating through product listings.
+"View Product" button redirects to a custom "Thank You" page.
+"Add to Cart" button opens a modal for adding items to the cart.
+Search bar for filtering products.
+Responsive design based on the Figma specifications.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Features
+Header Section:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A search bar to search for products.
+Icons for profile and cart with a product count.
+Product List Section:
 
-### `npm test`
+Displays a grid of products with product image, name, price, and action buttons ("View Product" and "Add to Cart").
+Clicking "View Product" redirects the user to a custom "Thank You" page.
+Clicking "Add to Cart" opens a modal with product details and a confirmation option.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Add to Cart Modal:
 
-### `npm run build`
+Shows product details and an option to confirm adding the item to the cart.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Pagination:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Pagination allows users to navigate through the list of products.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Thank You Page:
 
-### `npm run eject`
+Custom "Thank You" page is shown after clicking "View Product" with a message confirming the user’s action.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Usage
+Homepage: Displays the list of products with pagination.
+Add to Cart: Click "Add to Cart" on any product to open a modal with the product details.
+View Product: Click "View Product" to be redirected to a custom "Thank You" page.
+Search: Use the search bar in the header to filter products.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Components
+Header: Includes a search bar and icons for profile and cart.
+ProductCard: Displays individual product details such as image, name, price, and buttons for viewing and adding to the cart.
+AddToCartModal: Modal that opens when the user clicks "Add to Cart" and displays product details with a confirmation button.
+Pagination: Component for navigating between different pages of the product list.
+ThankYouPage: Custom page displayed when the user clicks "View Product."
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Technologies Used
+React: For building the user interface and handling state.
+React Router: For navigation and routing between pages.
+React Hooks: For managing component state.
+CSS: For styling the application.
